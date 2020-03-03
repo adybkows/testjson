@@ -1,9 +1,23 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
+  "login": {
+    "email": "jan@kowalski.pl",
+    "username": "jan",
+    "firstName": "Jan",
+    "lastName": "Kowalski",
+    "roleName": "Administrator",
+    "changePassOnLogin": false,
+    "rolePermissions": [{
+      "id": 2,
+      "name": "Konfiguracja urządzeń",
+      "slug: "config_and_instalation_devices",
+      "desc": "Konfigurowanie urządzeń transmisji LoRa.",
+      "Operations": [{
+        "id": 1,
+        "name": "Odczyt/Zapis",
+        "slug": "readwrite"
+      }]
+    }]
+  },
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
