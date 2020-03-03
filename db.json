@@ -9,7 +9,7 @@
     "rolePermissions": [{
       "id": 2,
       "name": "Konfiguracja urządzeń",
-      "slug: "config_and_instalation_devices",
+      "slug": "config_and_instalation_devices",
       "desc": "Konfigurowanie urządzeń transmisji LoRa.",
       "Operations": [{
         "id": 1,
